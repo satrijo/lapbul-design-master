@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<!-- BEGIN: Head -->
+
+<head>
+    <meta charset="utf-8">
+    <link href="dist/images/logo.svg" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Icewall admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Icewall Admin Template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="Satriyo">
+    <title>Laporan Bulanan - Pusmetbang</title>
+    <!-- BEGIN: CSS Assets-->
+    <link rel="stylesheet" href="dist/css/app.css" />
+    <!-- END: CSS Assets-->
+</head>
+<!-- END: Head -->
+
+<body class="main">
+    <!-- BEGIN: Mobile Menu -->
+    <div class="mobile-menu md:hidden">
+        <div class="mobile-menu-bar">
+            <a href="" class="flex mr-auto">
+                <img alt="Midone - HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+            </a>
+            <a href="javascript:;" id="mobile-menu-toggler"> <i data-lucide="bar-chart-2"
+                    class="w-8 h-8 text-white transform -rotate-90"></i> </a>
+        </div>
+        <ul class="border-t border-white/[0.08] py-5 hidden">
+            <li>
+                <a href="javascript:;.html" class="menu menu--active">
+                    <div class="menu__icon"> <i data-lucide="home"></i> </div>
+                    <div class="menu__title"> Dashboard <i data-lucide="chevron-down"
+                            class="transform rotate-180 menu__sub-icon"></i> </div>
+                </a>
+                <ul class="menu__sub-open">
+                    <li>
+                        <a href="index.html" class="menu menu--active">
+                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__title"> Overview 1 </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="side-menu-light-dashboard-overview-2.html" class="menu">
+                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__title"> Overview 2 </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="side-menu-light-dashboard-overview-3.html" class="menu">
+                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__title"> Overview 3 </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="side-menu-light-inbox.html" class="menu">
+                    <div class="menu__icon"> <i data-lucide="volume-2"></i> </div>
+                    <div class="menu__title"> Pengumuman </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- END: Mobile Menu -->
+    <!-- BEGIN: Top Bar -->
+    <div
+        class="top-bar-boxed h-[70px] z-[51] relative border-b border-white/[0.08] -mt-7 md:-mt-5 -mx-3 sm:-mx-8 px-3 sm:px-8 md:pt-0 mb-12">
+        <div class="flex items-center h-full">
+            <!-- BEGIN: Logo -->
+            <a href="" class="hidden -intro-x md:flex">
+                <img alt="Midone - HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+                <span class="ml-3 text-lg text-white"> Laporan Bulanan </span>
+            </a>
+            <!-- END: Logo -->
+            <!-- BEGIN: Breadcrumb -->
+            <nav aria-label="breadcrumb" class="h-full mr-auto -intro-x">
+                <ol class="breadcrumb breadcrumb-light">
+                    <li class="breadcrumb-item">Selamat Datang, <a href="#">Stasiun Meteorologi Juanda</a></li>
+                </ol>
+            </nav>
+            <!-- END: Breadcrumb -->
+
+
+            <!-- BEGIN: Account Menu -->
+            <div class="w-8 h-8 intro-x dropdown">
+                <div class="w-8 h-8 overflow-hidden scale-110 rounded-full shadow-lg dropdown-toggle image-fit zoom-in"
+                    role="button" aria-expanded="false" data-tw-toggle="dropdown">
+                    <img alt="Midone - HTML Admin Template" src="dist/images/profile-3.jpg">
+                </div>
+                <div class="w-56 dropdown-menu">
+                    <ul
+                        class="dropdown-content bg-primary/80 before:block before:absolute before:bg-black before:inset-0 before:rounded-md before:z-[-1] text-white">
+                        <li class="p-2">
+                            <div class="font-medium">Kevin Spacey</div>
+                            <div class="text-xs text-white/60 mt-0.5 dark:text-slate-500">Backend Engineer</div>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider border-white/[0.08]">
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="user"
+                                    class="w-4 h-4 mr-2"></i> Profile </a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="edit"
+                                    class="w-4 h-4 mr-2"></i> Add Account </a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="lock"
+                                    class="w-4 h-4 mr-2"></i> Reset Password </a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="help-circle"
+                                    class="w-4 h-4 mr-2"></i> Help </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider border-white/[0.08]">
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="toggle-right"
+                                    class="w-4 h-4 mr-2"></i> Logout </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- END: Account Menu -->
+        </div>
+    </div>
+    <!-- END: Top Bar -->
+    <div class="wrapper">
+        <div class="wrapper-box">
+            <!-- BEGIN: Side Menu -->
+            <nav class="side-nav">
+                <ul>
+                    <li>
+                        <a href="javascript:;.html" class="side-menu side-menu--active">
+                            <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
+                            <div class="side-menu__title">
+                                Dashboard
+                                <div class="transform rotate-180 side-menu__sub-icon"> <i
+                                        data-lucide="chevron-down"></i> </div>
+                            </div>
+                        </a>
+                        <ul class="side-menu__sub-open">
+                            <li>
+                                <a href="index.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                    <div class="side-menu__title"> Dashboard Utama </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="laporan.html" class="side-menu side-menu--active">
+                                    <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                    <div class="side-menu__title"> Dashboard Stasiun </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="side-menu-light-dashboard-overview-3.html" class="side-menu">
+                                    <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                    <div class="side-menu__title"> Dashboard Pejabat </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="side-menu-light-inbox.html" class="side-menu">
+                            <div class="side-menu__icon"> <i data-lucide="volume-2"></i> </div>
+                            <div class="side-menu__title"> Pengumuman </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+            <!-- END: Side Menu -->
+                <!-- BEGIN: Content -->
+                <div class="content">
+                    <div class="flex flex-col items-center mt-8 intro-y sm:flex-row">
+                        <h2 class="mr-auto text-lg font-medium">
+                            Detail Pengumuman
+                        </h2>
+                    </div>
+                    <div class="grid grid-cols-12 gap-5 mt-5 pos intro-y">
+                        <!-- BEGIN: Post Content -->
+                        <div class="col-span-12 intro-y lg:col-span-12">
+                            <div class="overflow-hidden post intro-y box">
+                                <ul class="flex-col post__tabs nav nav-tabs sm:flex-row bg-slate-200 dark:bg-darkmode-800" role="tablist">
+                                    <li class="nav-item">
+                                        <button title="Permasalahan yang terjadi" data-tw-toggle="tab" data-tw-target="#content" class="w-full py-4 nav-link tooltip sm:w-40 active" id="content-tab" role="tab" aria-controls="content" aria-selected="true"> <i data-lucide="file-text" class="w-4 h-4 mr-2"></i> Pengumuman </button>
+                                    </li>
+                                </ul>
+                                <div class="post__content tab-content">
+                                    <div id="content" class="p-5 tab-pane active" role="tabpanel" aria-labelledby="content-tab">
+                                        <div class="p-5 border rounded-md border-slate-200/60 dark:border-darkmode-400">
+                                            <div class="grid mt-5">
+                                                <div class="item-center">
+                                                    <a class="mb-2 mr-1 w-max btn btn-sm btn-danger"> <i data-lucide="alert-triangle" class="w-4 h-4 mr-2"></i> Tinggi</a>
+                                                    <a class="mb-2 mr-2 w-max btn btn-sm btn-outline-primary"><i data-lucide="thermometer" class="w-4 h-4 mr-2"></i> Peralatan Operasional</a>
+                                                    <h2 class="mb-4 text-2xl font-bold">Permasalahan Pada Tabung Gas Radio Sonde</h2>
+                                                </div>
+                                                
+                                                <div class="grid text-base">
+                                                    <span>Ditujukan : Stasiun Meteorologi Juanda</span>
+                                                    <span>Diajukan: Selasa, 12 Maret 2022 - 19.00 WIB</span>
+                                                    
+                                                    <span class="mt-6 font-bold">Pengumuman: </span>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, non in. Aspernatur iure ullam harum labore nulla. Iste provident adipisci illo quis facere. Quasi sequi quae corrupti repellendus fugiat voluptates.
+                                                    Eaque autem qui doloribus enim eius nobis suscipit error, commodi aut illo aliquam nemo perferendis libero, maxime odio vel sit a inventore tenetur sequi id optio? Excepturi, aliquam eos. Voluptatum!
+                                                    Corporis cum commodi neque debitis? Quaerat, tempore nostrum, obcaecati, exercitationem fugiat minima incidunt nam aliquid accusamus autem nobis! Quae tenetur debitis nihil modi quo accusantium facilis velit quasi temporibus nobis.
+                                                    Aspernatur expedita similique ab voluptatibus repellendus harum iste distinctio obcaecati odit! Rerum nulla quam, ipsum consequatur iure dolorem ad doloribus! Nesciunt itaque odio, dicta ex minima natus? At, fugiat voluptatum?
+                                                    Voluptate reprehenderit unde expedita at suscipit, ex, fugiat, asperiores exercitationem vel consectetur ut amet sit provident adipisci officiis tempore autem sapiente cupiditate perferendis. Hic labore quibusdam aut fugiat deserunt rerum.
+                                                    Delectus dolorum nisi quod porro quas alias odit velit optio sapiente repellat ad, suscipit eveniet mollitia quasi. Voluptate ullam, obcaecati, laboriosam voluptas maxime officia itaque odio ex repellat iure fugit?</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END: Post Content -->
+                    </div>
+                </div>
+                <!-- END: Content -->
+            </div>
+        </div>
+        
+        <!-- BEGIN: JS Assets-->
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=["your-google-map-api"]&libraries=places"></script>
+        <script src="dist/js/app.js"></script>
+        <!-- END: JS Assets-->
+        <script src="dist/js/ckeditor-classic.js"></script>
+    </body>
+</html>
